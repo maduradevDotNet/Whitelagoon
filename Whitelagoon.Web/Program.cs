@@ -1,5 +1,7 @@
 using Microsoft.EntityFrameworkCore;
+using Whitelagoon.Application.Common.Interfaces;
 using Whitelagoon.Infrastructure.Data;
+using Whitelagoon.Infrastructure.Repository;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -10,6 +12,8 @@ builder.Services.AddDbContext<ApplicationDBContext>(options =>
 
 // Add services to the container.
 builder.Services.AddControllersWithViews();
+
+builder.Services.AddScoped<IVillaRepository, VillaRepository>();
 
 var app = builder.Build();
 

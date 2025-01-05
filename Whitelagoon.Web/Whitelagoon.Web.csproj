@@ -15,6 +15,7 @@
   </ItemGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\Whitelagoon.Application\Whitelagoon.Application.csproj" />
     <ProjectReference Include="..\Whitelagoon.Infrastructure\Whitelagoon.Infrastructure.csproj" />
   </ItemGroup>
 

@@ -19,7 +19,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\Whitelagoon.Domain\Whitelagoon.Domain.csproj" />
+    <ProjectReference Include="..\Whitelagoon.Application\Whitelagoon.Application.csproj" />
   </ItemGroup>
 
 </Project>
