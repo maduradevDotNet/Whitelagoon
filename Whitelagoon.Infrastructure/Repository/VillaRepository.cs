@@ -67,10 +67,10 @@ namespace Whitelagoon.Infrastructure.Repository
         //   _db.Remove(entity);
         //}
 
-        public void Save()
-        {
-            _db.SaveChanges();
-        }
+        //public void Save()
+        //{
+        //    _db.SaveChanges();
+        //}
 
         public void Update(Villa entity)
         {
